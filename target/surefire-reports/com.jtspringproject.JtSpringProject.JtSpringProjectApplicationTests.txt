@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.jtspringproject.JtSpringProject.JtSpringProjectApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.465 s <<< FAILURE! - in com.jtspringproject.JtSpringProject.JtSpringProjectApplicationTests
+com.jtspringproject.JtSpringProject.JtSpringProjectApplicationTests  Time elapsed: 0.463 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\pooja badavagol\Desktop\E-commerce-project-springBoot\JtProject\target\test-classes\com\jtspringproject\JtSpringProject\JtSpringProjectApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\pooja badavagol\Desktop\E-commerce-project-springBoot\JtProject\target\test-classes\com\jtspringproject\JtSpringProject\JtSpringProjectApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\pooja badavagol\Desktop\E-commerce-project-springBoot\JtProject\target\test-classes\com\jtspringproject\JtSpringProject\JtSpringProjectApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 65
+
